@@ -1,0 +1,83 @@
+.hero{
+  height: 100vh;
+  width: 100%;
+position: relative;
+  .img{
+    height: 100vh;
+    width: 100%;
+
+
+  }
+  .title-text{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ color: white;
+ .title{
+    font-size: 110px;
+      span{
+        color: #ffc515;
+      }
+      p{
+color: white;
+justify-content: end;
+      }
+  }
+ }
+  
+}
+.welcome{
+    width: 100%;
+    min-height: 746px;
+   top: 50%;
+   
+    .welcome-tite{
+        font-size: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 16px;
+margin: 6rem 0 5rem;
+    }
+    .cards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        .card{
+            text-align: center;
+            min-height: 96px;
+            max-width: 362px;
+            margin: 0 0 45px;
+            padding: 0 15px;
+            .date{
+                font-weight: 500;
+                line-height: 1.2;
+                font-size: 30px;
+                margin: 0 0 35px;
+            }
+            .text{
+                font-size: 16px;
+                color: #7e7e7e;
+                line-height: 2;
+            }
+        }
+    }
+}
+
+.testimonials{
+    position: relative;
+    .img{
+        height: 100vh;
+        width: 100%; 
+    
+      }
+      .testimonials-title{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: white;
+      }
+}

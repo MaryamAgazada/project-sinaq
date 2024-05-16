@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index:1;
+    cursor: pointer;
+    .logo{
+        padding: 25px 0;
+        color: #fff;
+        font-size: 36px;
+        span{
+            color: #ffc515;
+        }
+    }
+    .items{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+        .item{
+            color: white;
+            margin-left: 50px;
+            // color: #fff;
+            padding: 10px 5px;
+         
+            text-decoration: none;
+
+           
+        }
+    }
+  .contact{
+      color: #fff;
+  }
+}
